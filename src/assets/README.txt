@@ -1,0 +1,1 @@
+Place your images here: profile, about, and project images.
