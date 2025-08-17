@@ -1,0 +1,21 @@
+mkdir -p src/assets/certs
+
+cat > src/assets/certs/aws.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96"><rect width="96" height="96" rx="12" fill="#222"/><text x="50%" y="55%" font-size="28" fill="#bbb" text-anchor="middle">AWS</text></svg>
+SVG
+
+cat > src/assets/certs/gcp.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96"><rect width="96" height="96" rx="12" fill="#222"/><text x="50%" y="55%" font-size="28" fill="#bbb" text-anchor="middle">GCP</text></svg>
+SVG
+
+cat > src/assets/certs/oracle.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="96"><rect width="120" height="96" rx="12" fill="#222"/><text x="50%" y="55%" font-size="24" fill="#bbb" text-anchor="middle">ORACLE</text></svg>
+SVG
+
+cat > src/assets/certs/ibm.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96"><rect width="96" height="96" rx="12" fill="#222"/><text x="50%" y="55%" font-size="28" fill="#bbb" text-anchor="middle">IBM</text></svg>
+SVG
+
+cat > src/assets/certs/hackerrank.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="96"><rect width="120" height="96" rx="12" fill="#222"/><text x="50%" y="55%" font-size="20" fill="#bbb" text-anchor="middle">HACKERRANK</text></svg>
+SVG
