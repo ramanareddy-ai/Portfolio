@@ -7,18 +7,35 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# GitHub Pages artifacts (optional, if using gh-pages branch)
+gh-pages/
+
+# Optional: lock files (if you want one package manager only)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
